@@ -8,17 +8,6 @@ const MyTasks = () => {
   const { tasks } = useSelector((state) => state.tasksSlice);
 
 
-  const item = {
-    id: 1,
-    status: 'pending',
-    title: 'Remove Button',
-    description:
-      'We need a remove button in our task card. Meke the button red and use Heroicon for tashbin icon.',
-    date: '2023-08-28',
-    assignedTo: 'Mir Hussain',
-    priority: 'high',
-  };
-
   return (
     <div>
       <h1 className="text-xl my-3">My Tasks</h1>
